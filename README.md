@@ -22,5 +22,5 @@ Since I've captured both Telnet and SSH traffic, I wondered if Wireshark could i
 <h3>Step 3: Distinguish Between Unencrypted Telnet and Securely Encrypted SSH Traffic</h3>
 Based on previous observations, I'm aware that the Telnet conversation is unencrypted, leaving all activity visible to anyone intercepting the traffic between me and the server. However, upon examining the SSH conversation and selecting "Follow Stream," it's evident that all data is encrypted. Anyone attempting to decipher this encrypted traffic intercepted along the way will likely face significant challenges.
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/CaptureAnalyzeSSHSessions/assets/145611184/613509f2-4ad9-4583-a6a5-b92151f49a65" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
