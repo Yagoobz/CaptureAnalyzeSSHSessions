@@ -1,13 +1,13 @@
 <h2>Exercise 5: Capture and Analyze SSH Sessions</h2>
 
 <h3>Objectives</h3>
-- x
+- Update Wireshark filter for SSH and Telnet.
 <br />
-- x
+- Check TCP conversations under Wireshark Statistics.
 <br />
-- x
+- Analyze encrypted SSH conversation for security.
 <br />
-- x
+- Examine potential security measures in SSH encryption.
 
 <h3>Step 1: Update Wireshark Filter to Capture Traffic from a Different Host</h3>
 To initiate the capture of all traffic between myself and the remote server I plan to SSH into, I input "host tty.sdf.org" into the Wireshark capture filter. To generate SSH traffic, I utilize Windows PowerShell, providing my login credentials. Additionally, I generate Telnet traffic by entering the same username and password. While examining Wireshark, I initially detected what seemed like a potential error. However, upon further reflection, I realized it was simply SSH exercising caution, a fundamental aspect of its security measures. When SSH attempts to log into a host it hasn't encountered previously, it displays a message as a precautionary measure.
