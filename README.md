@@ -18,3 +18,9 @@ To initiate the capture of all traffic between myself and the remote server I pl
 Since I've captured both Telnet and SSH traffic, I wondered if Wireshark could inform me about the number of conversations in the packet capture. Indeed, it can! By navigating to the "Statistics" tab, then selecting "Conversations," and specifically choosing "TCP" because both SSH and Telnet utilize TCP, we're able to observe the two conversations. This view provides details such as port numbers, IP addresses, packet counts, and more. 
 <br />
 <img src="https://github.com/Yagoobz/CaptureAnalyzeSSHSessions/assets/145611184/687d7fc4-3524-47bc-b19b-e7b127ec8af6" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
+<h3>Step 3: Distinguish Between Unencrypted Telnet and Securely Encrypted SSH Traffic</h3>
+Based on previous observations, I'm aware that the Telnet conversation is unencrypted, leaving all activity visible to anyone intercepting the traffic between me and the server. However, upon examining the SSH conversation and selecting "Follow Stream," it's evident that all data is encrypted. Anyone attempting to decipher this encrypted traffic intercepted along the way will likely face significant challenges.
+<br />
+<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
