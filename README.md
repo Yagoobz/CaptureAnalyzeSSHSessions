@@ -14,7 +14,7 @@ To initiate the capture of all traffic between myself and the remote server I pl
 <br />
 <img src="https://github.com/Yagoobz/CaptureAnalyzeSSHSessions/assets/145611184/1ad469ab-0a5a-4d7d-9eb5-b47bc24b682b" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
-<h3>Step 1: Capture Traffic Between Host and Remote Server</h3>
-To initiate the capture of all traffic between myself and the remote server I plan to SSH into, I input "host tty.sdf.org" into the Wireshark capture filter. To generate SSH traffic, I utilize Windows PowerShell, providing my login credentials. Additionally, I generate Telnet traffic by entering the same username and password.
+<h3>Step 2: Check Conversations Under Wireshark Statistics</h3>
+Since I've captured both Telnet and SSH traffic, I wondered if Wireshark could inform me about the number of conversations in the packet capture. Indeed, it can! By navigating to the "Statistics" tab, then selecting "Conversations," and specifically choosing "TCP" because both SSH and Telnet utilize TCP, we're able to observe the two conversations. This view provides details such as port numbers, IP addresses, packet counts, and more. 
 <br />
-<img src="https://github.com/Yagoobz/CaptureAnalyzeSSHSessions/assets/145611184/1ad469ab-0a5a-4d7d-9eb5-b47bc24b682b" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="xx" height="30%" width="70%" alt="Disk Sanitization Steps"/>
