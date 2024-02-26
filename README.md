@@ -1,4 +1,4 @@
-<h2>Exercise 5: Capture and Analyze SSH Sessions</h2>
+<h2>Capture and Analyze SSH Sessions</h2>
 
 <h3>Objectives</h3>
 - Update Wireshark filter for SSH and Telnet.
